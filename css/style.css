@@ -4,18 +4,23 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
+.body22{
+	background-color: #101010;
+
+}
+
 .hero{
 	height: 100vh;
 	width: 100%;
 	background-image: url(../img/background.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: right;
 }
 nav{
 	display: flex;
-	align-items: center;
+	align-items: right;
 	justify-content: space-between;
-	padding-top: 45px;
+	padding-top: 60px;
 	padding-left: 8%;
 	padding-right: 8%;
 }
@@ -191,11 +196,11 @@ button:hover{
 
 .abu{
 	color: rgb(153, 150, 150);
-	font-size: 12px;
+	font-size: 14px;
 	width: 1130px;
 	padding-left: 48px;
 	padding-right: 48px;
-	text-align: justify;
+	text-align: center;
 }
 
 .box{
